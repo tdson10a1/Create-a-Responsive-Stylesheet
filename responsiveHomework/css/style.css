@@ -24,6 +24,7 @@ img {
     width: 100%;
 }
 
+/* Mobile View (default) */
 div img {
     width: 150px;
     height: 150px;
@@ -32,10 +33,10 @@ div img {
 }
 
 div {
-    display: inline-block;
-    width: 24%;
+    width: 100%;
     margin: 5px;
     padding: 2px;
+    display: block;
 }
 
 /* =========================
@@ -46,12 +47,12 @@ div {
     div {
         width: 45vw;
         display: inline-block;
+        vertical-align: top;
     }
 
     img {
         max-height: 30vh;
     }
-
 }
 
 /* =========================
@@ -62,5 +63,4 @@ div {
     div {
         width: 30vw;
     }
-
 }
